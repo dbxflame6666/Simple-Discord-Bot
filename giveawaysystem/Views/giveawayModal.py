@@ -113,7 +113,7 @@ class GiveawayModal(discord.ui.Modal):
 
 
         embed2 = discord.Embed(
-            title=f'<a:DBXTada:1050422319392243722> **|** Giveaway ended!',
+            title=f'Giveaway ended!',
             description=f"""
 `You to late.`
 
@@ -149,7 +149,7 @@ class GiveawayEnter(discord.ui.View):
         member = interaction.user
         giveaway_users = []
 
-        if os.path.exists(f"giveaway_users/{custom_id}.txt"):
+        if os.path.exists(f"giveawaysystem/Views/giveaway_users/{custom_id}.txt"):
             pass
 
         else:
