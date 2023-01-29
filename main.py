@@ -12,7 +12,8 @@ Create a File called 'config.json' and copy n paste the following 4 lines:
   "token": "ADD YOUR TOKEN HERE",
   "prefix": "."
 }
-
+/////\\\\\
+CHANGE LINE 46 IF NEEDED !!!!!!!!!!!!!!!
 """
 
 def get_config(name):
@@ -42,7 +43,7 @@ def load():
     print(Fore.RED + "\____________________________________/\n" + Fore.GREEN + "|")
 
     folders = [
-        "ViewCMD", "Events", "Commands", "Level"
+        "If your using Cogs, add your Folder name here || If you not using any cogs, remove line 45 - 53"
         ]
     for folder in folders:
         for file in os.listdir(f"./{folder}"):
