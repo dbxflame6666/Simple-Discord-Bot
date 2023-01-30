@@ -149,7 +149,7 @@ class GiveawayEnter(discord.ui.View):
         member = interaction.user
         giveaway_users = []
 
-        if os.path.exists(f"giveawaysystem/Views/giveaway_users/{custom_id}.txt"):
+        if os.path.exists(f"giveaway_users/{custom_id}.txt"):
             pass
 
         else:
