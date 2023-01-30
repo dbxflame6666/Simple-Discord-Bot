@@ -130,7 +130,7 @@ class GiveawayModal(discord.ui.Modal):
 
 
         await new_msg.edit(f'<a:DBXTada:1050422319392243722> **|** {Winner}won the giveaway', embed=embed2, view=None)
-        await interaction.followup.send(f'<a:DBXTada:1050422319392243722> **|** {Winner}won the giveaway!\n\nCreate a `Support` Ticket to claim your reward !', embed=embed2, view=None)
+        await interaction.followup.send(f'<a:DBXTada:1050422319392243722> **|** {Winner}won the giveaway!\n\nCreate a `Support` Ticket to claim your reward !', embed=embed2)
         os.remove(f"giveaway_users/{custom_id}.txt")
         
 
