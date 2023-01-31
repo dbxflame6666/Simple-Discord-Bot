@@ -2,6 +2,11 @@
 """
 Please Check the Code twice and check if you changed ALL ID's you have to Change
 e.g.: Role IDs (e.g. Line 59) || Category IDs, where do you want to create the Tickets (e.g. Line 42)
+
+Also, dont forget to Change the Role IDs, Category IDs in the Other Files !
+
+
+All Codes were made by dbxFlame.
 """
 
 import discord
@@ -9,7 +14,7 @@ from discord.ext  import commands
 from datetime import datetime
 import asyncio
 from Views.Ticket2 import Ticket2View
-from Views.Ticket3 import Ticket3Modal
+from Views.Ticket3 import PartnerModal
 from Views.TicketButtonsEm import TicketViewButtonEmMSG
 
 
@@ -105,8 +110,8 @@ class TicketViewCreateTicket(discord.ui.View):
 
             em = discord.Embed(
                 title='Ticket 3',
-                description=f'This is a Ticket Selection with a Modal.'
+                description=f'This is a example of a Partner Request/Modal.'
             )
 
-            await interaction.response.send_modal(Ticket3Modal(title='Ticket 3'))
+            await interaction.response.send_modal(PartnerModal(title='e.g. Partner Modal'))
 
