@@ -22,7 +22,7 @@ class poll(commands.Cog):
         await ctx.respond('Poll was created succesfully!', ephemeral=True)
 
         embed = discord.Embed(
-            title=" Abstimmung ",
+            title=" New Poll ",
             description=f"__**{message}**__\n\n\n1️⃣ - {choice1}\n\n2️⃣ - {choice2}",
             color=0x813ecc
         )
