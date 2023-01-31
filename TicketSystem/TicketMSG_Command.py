@@ -21,8 +21,7 @@ class TicketMSG(commands.Cog):
 
                         'Ticket Categories\n'
                         '**Test Ticket**\n'
-                        '> ➥ ...\n'
-,
+                        '> ➥ ...\n',
             color=discord.Color.blurple()
         )
 
