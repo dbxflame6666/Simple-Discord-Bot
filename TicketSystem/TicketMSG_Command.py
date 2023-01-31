@@ -1,3 +1,8 @@
+"""
+Here are a few notes, please read:
+If your using 
+"""
+
 import discord
 from discord.ext  import commands
 from discord.commands import slash_command
