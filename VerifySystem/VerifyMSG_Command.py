@@ -18,7 +18,7 @@ class verifymsg(commands.Cog):
 
     @slash_command(description='Owner Command only!')
     async def verifymsg(self, interaction):
-      if interaction.user.has_permissions.administrator:
+      if interaction.user.guild_permissions.administrator:
         em = discord.Embed(
             title='dbx Code',
             description=f'Verification\n'
