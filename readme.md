@@ -4,6 +4,8 @@ If you like what i post, support me by following me and leaving a Star here <3
 > Please Read the Notes at the Top of the Files.
 
 **Giveaway System E.g.:**
+**Giveaway System E.g.:**
+**Giveaway System E.g.:**
 
 
 ![image](https://user-images.githubusercontent.com/106920457/215776351-2163c8ea-2650-48fe-b49a-2dab82c2f89a.png)
@@ -12,6 +14,8 @@ If you like what i post, support me by following me and leaving a Star here <3
 
 
 
+**Ticket System E.g.:**
+**Ticket System E.g.:**
 **Ticket System E.g.:**
 
 
@@ -23,6 +27,8 @@ If you like what i post, support me by following me and leaving a Star here <3
 ![image](https://user-images.githubusercontent.com/106920457/215776670-e3cb38a0-9666-4e76-bf32-479ab2fec2b4.png)
 
 
+**Verification System E.g.:**
+**Verification System E.g.:**
 **Verification System E.g.:**
 
 
