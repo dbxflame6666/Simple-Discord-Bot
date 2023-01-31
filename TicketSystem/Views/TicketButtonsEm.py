@@ -6,7 +6,7 @@ import discord
 from discord.ext  import commands
 from datetime import datetime
 import asyncio
-from Views.TicketViews.CloseDropdownMenu import CloseDropdown
+from Views.CloseDropdownMenu import CloseDropdown
 import os
 
 
