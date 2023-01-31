@@ -8,11 +8,8 @@ import discord
 from discord.ext  import commands
 from datetime import datetime
 import asyncio
-from Views.TicketViews.TicketButtonsEm import TicketViewButtonEmMSG
-from Views.TicketViews.OrderMenu import OrderMenu
-from Views.TicketViews.ReportDropDown import Rep
-from Views.TicketViews.applicationDropdown import appdropdown
-from Views.TicketViews.PartnerModal import PartnerModal
+from Views.Ticket2 import Ticket2View
+from Views.Ticket3 import Ticket3Modal
 
 
 TicketOptionss = [
