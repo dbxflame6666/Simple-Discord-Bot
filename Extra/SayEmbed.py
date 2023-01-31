@@ -8,7 +8,7 @@ class Sayembed(commands.Cog):
 
     @slash_command()
     async def sayembed(self, ctx):
-      if ctx.author.has_permissions.manage_messages:
+      if ctx.author.guild_permissions.manage_messages:
         modal = EmbedSetup(title="Create a Embed")
         await ctx.send_modal(modal)
         
