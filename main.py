@@ -12,8 +12,9 @@ Create a File called 'config.json' and copy n paste the following 4 lines:
   "token": "ADD YOUR TOKEN HERE",
   "prefix": "."
 }
-/////\\\\\
+/////  \\\\\
 CHANGE LINE 46 IF NEEDED !!!!!!!!!!!!!!!
+\\\\\  /////
 """
 
 def get_config(name):
