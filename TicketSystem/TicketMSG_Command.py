@@ -31,7 +31,7 @@ class TicketMSG(commands.Cog):
         await ticketmsg.send(embed=em, view=TicketViewCreateTicket())
         await interaction.response.send_message('posted', ephemeral=True)
       else:
-        interaction.response.send_message('You dont got permissions for that.')
+        await interaction.response.send_message('You dont got permissions for that.')
 
 def setup(client):
      client.add_cog(TicketMSG(client))
