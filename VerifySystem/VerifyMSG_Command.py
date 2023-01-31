@@ -10,7 +10,7 @@ from discord.ext  import commands
 from discord.commands import slash_command
 from datetime import datetime
 import asyncio
-from Views.verifyModalView import verifyModal
+from Views.ButtonintoView import Buttonintomodal
 
 class verifymsg(commands.Cog):
     def __init__(self, client):
@@ -34,7 +34,7 @@ class verifymsg(commands.Cog):
 
         verifymsg = self.client.get_channel(1234) # Add your Channel ID here
 
-        await verifymsg.send(embed=em, view=VerifyView())
+        await verifymsg.send(embed=em, view=Buttonintomodal())
         await interaction.response.send_message('posted', ephemeral=True)
       else:
         await interaction.response.send_message("You dont got permissions for that Command")
