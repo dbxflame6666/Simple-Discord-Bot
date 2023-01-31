@@ -2,7 +2,7 @@
 Here is a simple and easy Verification System.
 Please dont forget to add your Channel IDs below in the Code
 AND
-Dont forget to add your regular Member role in the File 'verifyModalView', line 30
+Dont forget to add your regular Member role in the File 'verifyModalView', line 31
 """
 
 import discord
