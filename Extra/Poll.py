@@ -18,7 +18,7 @@ class poll(commands.Cog):
 
     @slash_command()
     async def poll(self, ctx, *, message: Option(str), choice1: Option(str), choice2: Option(str)):
-      if ctx.author.has_permissions.manage_messages:
+      if ctx.author.guild_permissions.manage_messages:
         await ctx.respond('Poll was created succesfully!', ephemeral=True)
 
         embed = discord.Embed(
