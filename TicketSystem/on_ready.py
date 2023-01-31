@@ -3,8 +3,8 @@ from discord.ext  import commands
 from discord.commands import slash_command
 from datetime import datetime
 import asyncio
-from Views.TicketViews.CloseDropdownMenu import CloseDropdown
-from Views.TicketViews.TicketButtonsEm import TicketViewButtonEmMSG
+from Views.CloseDropdownMenu import CloseDropdown
+from Views.TicketButtonsEm import TicketViewButtonEmMSG
 from Views.TicketView import TicketViewCreateTicket
 
 
