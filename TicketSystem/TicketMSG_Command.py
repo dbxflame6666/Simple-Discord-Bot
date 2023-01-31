@@ -11,7 +11,7 @@ class TicketMSG(commands.Cog):
 
     @slash_command(description='Sends the Ticket Menu')
     async def ticketmsg(self, interaction):
-      if interaction.user.has_permissions.administrator:
+      if interaction.user.guild_permissions.administrator:
         em = discord.Embed(
             title='dbx Code',
             description=f'Ticket Rules\n'
