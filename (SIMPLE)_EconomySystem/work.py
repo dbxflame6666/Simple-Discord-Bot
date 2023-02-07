@@ -1,7 +1,7 @@
 import discord  ,  aiosqlite  ,  random
 from discord.ext import commands  ,  bridge
 from datetime import datetime
-from Config.Views import events
+from (SIMPLE)_EconomySystem.Views import events
 
 
 class work(commands.Cog):
