@@ -2,7 +2,7 @@ import discord
 from discord.ext  import commands
 from datetime import datetime
 import asyncio
-from Views.verifyModalView import verifyModal
+from VerifySystem.Views.verifyModalView import verifyModal
 
 
 class Buttonintomodal(discord.ui.View):
