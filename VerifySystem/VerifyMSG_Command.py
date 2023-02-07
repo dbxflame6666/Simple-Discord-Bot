@@ -10,7 +10,7 @@ from discord.ext  import commands
 from discord.commands import slash_command
 from datetime import datetime
 import asyncio
-from Views.VerifyView import VerifyView
+from VerifySystem.Views.VerifyView import VerifyView
 
 class verifymsg(commands.Cog):
     def __init__(self, client):
