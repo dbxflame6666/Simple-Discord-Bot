@@ -1,6 +1,6 @@
 import discord
 from datetime import datetime
-from Views.TicketButtonsEm import TicketViewButtonEmMSG
+from TicketSystem.Views.TicketButtonsEm import TicketViewButtonEmMSG
 
 class PartnerModal(discord.ui.Modal):
     def __init__(self, *args, **kwargs):
