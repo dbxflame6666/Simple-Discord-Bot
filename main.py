@@ -44,7 +44,7 @@ def load():
     print(Fore.RED + "\____________________________________/\n" + Fore.GREEN + "|")
 
     folders = [
-        "If your using Cogs, add your Folder name here || If you not using any cogs, remove line 45 - 53"
+        "giveawaysystem", "ticketsystem"
         ]
     for folder in folders:
         for file in os.listdir(f"./{folder}"):
