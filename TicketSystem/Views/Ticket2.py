@@ -2,7 +2,7 @@ import discord
 from discord.ext  import commands
 from datetime import datetime
 import asyncio
-from Views.TicketButtonsEm import TicketViewButtonEmMSG
+from TicketSystem.Views.TicketButtonsEm import TicketViewButtonEmMSG
 
 options = [
     discord.SelectOption(label="1", description="1!", emoji="<:DBXdiscord:1047271041623392317>", value="1"),
