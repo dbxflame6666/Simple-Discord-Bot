@@ -8,7 +8,7 @@ from discord.ext  import commands
 from discord.commands import slash_command
 from datetime import datetime
 import asyncio
-from Views.MainTicketView import TicketViewCreateTicket
+from TicketSystem.Views.MainTicketView import TicketViewCreateTicket
 
 class TicketMSG(commands.Cog):
     def __init__(self, client):
