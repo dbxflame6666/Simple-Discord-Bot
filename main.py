@@ -13,7 +13,7 @@ Create a File called 'config.json' and copy n paste the following 4 lines:
   "prefix": "."
 }
 /////  \\\\\
-CHANGE LINE 46 IF NEEDED !!!!!!!!!!!!!!!
+CHANGE LINE 47 IF NEEDED !!!!!!!!!!!!!!!
 \\\\\  /////
 """
 
