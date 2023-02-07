@@ -1,6 +1,6 @@
 from discord.ext import commands
 from discord.commands import slash_command
-from EmbedSystem.Views.dbxmodal import dbxModal
+from EmbedSystem.Views.embuilder import dbxModal
 
 class Sayembed(commands.Cog):
     def __init__(self, client):
