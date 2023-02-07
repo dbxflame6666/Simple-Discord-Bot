@@ -2,7 +2,7 @@ import discord
 from discord.ext  import commands
 from datetime import datetime
 import asyncio
-from Views.ButtonintoView import Buttonintomodal
+from VerifySystem.Views.ButtonintoView import Buttonintomodal
 
 Verification = [
     discord.SelectOption(label="Wrong", description="This is wrong", emoji="<:DBXcross:1047486128653078568>", value="wrong"),
