@@ -13,9 +13,9 @@ import discord
 from discord.ext  import commands
 from datetime import datetime
 import asyncio
-from Views.Ticket2 import Ticket2View
-from Views.Ticket3 import PartnerModal
-from Views.TicketButtonsEm import TicketViewButtonEmMSG
+from TicketSystem.Views.Ticket2 import Ticket2View
+from TicketSystem.Views.Ticket3 import PartnerModal
+from TicketSystem.Views.TicketButtonsEm import TicketViewButtonEmMSG
 
 
 TicketOptionss = [
