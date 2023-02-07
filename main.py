@@ -44,7 +44,7 @@ def load():
     print(Fore.RED + "\____________________________________/\n" + Fore.GREEN + "|")
 
     folders = [
-        "giveawaysystem", "ticketsystem"
+        "giveawaysystem", "TicketSystem", "VerifySystem", "Extra"
         ]
     for folder in folders:
         for file in os.listdir(f"./{folder}"):
