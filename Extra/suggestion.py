@@ -5,7 +5,7 @@ Please dont forget to add your Channel ID in line 17 AND Line 25 !!!
 from datetime import datetime
 import discord
 from discord.ext import commands, tasks
-
+from discord.commands import slash_command, Option
 
 class suggest(commands.Cog):
 
