@@ -1,11 +1,7 @@
-import discord
 from discord.ext  import commands
-from discord.commands import slash_command
-from datetime import datetime
-import asyncio
 from TicketSystem.Views.CloseDropdownMenu import CloseDropdown
 from TicketSystem.Views.TicketButtonsEm import TicketViewButtonEmMSG
-from TicketSystem.Views.TicketView import TicketViewCreateTicket
+from TicketSystem.Views.MainTicketView import TicketViewCreateTicket
 
 
 class on_ready(commands.Cog):
@@ -21,11 +17,14 @@ class on_ready(commands.Cog):
         self.client.add_view(
             TicketViewCreateTicket()
         )
+
         self.client.add_view(
             TicketViewButtonEmMSG()
         )
+
         self.client.add_view(
             CloseDropdown()
+        )
 
 
 
