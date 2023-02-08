@@ -1,11 +1,9 @@
-try:
-  from colorama import Fore
-  import discord
-  
-else:
-  os.system("pip install colorama")
-  os.system("pip install py-cord")
-  
+from colorama import Fore
+import discord
+import json
+from discord.ext import bridge
+import os  
+
 """
 Create a File called 'config.json' and copy n paste the following 4 lines:
 {
