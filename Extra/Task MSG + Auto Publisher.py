@@ -10,7 +10,7 @@ from discord.commands import slash_command
 from datetime import datetime
 
 
-class tasks(commands.Cog):
+class task(commands.Cog):
     def __init__(self, client):
         self.client = client
         
@@ -39,4 +39,4 @@ class tasks(commands.Cog):
         
         
 def setup(client):
-     client.add_cog(tasks(client))
+     client.add_cog(task(client))
