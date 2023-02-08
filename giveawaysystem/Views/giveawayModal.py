@@ -98,7 +98,7 @@ class GiveawayModal(discord.ui.Modal):
         users = []
 
 
-        with open(f"giveaway_users/{custom_id}.txt", "r") as file:
+        with open(f"giveawaysystem/giveaway_users/{custom_id}.txt", "r") as file:
             for line in file:
                 stripped_line = line.strip()
                 users.append(stripped_line)
@@ -149,15 +149,15 @@ class GiveawayEnter(discord.ui.View):
         member = interaction.user
         giveaway_users = []
 
-        if os.path.exists(f"giveaway_users/{custom_id}.txt"):
+        if os.path.exists(f"giveawaysystem/giveaway_users/{custom_id}.txt"):
             pass
 
         else:
-            open(f"giveaway_users/{custom_id}.txt", "x")
+            open(f"giveawaysystem/giveaway_users/{custom_id}.txt", "x")
             pass
         
 
-        with open(f"giveaway_users/{custom_id}.txt", "r") as file:
+        with open(f"giveawaysystem/giveaway_users/{custom_id}.txt", "r") as file:
             for line in file:
                 stripped_line = line.strip()
                 giveaway_users.append(stripped_line)
@@ -166,7 +166,7 @@ class GiveawayEnter(discord.ui.View):
         if str(member.id) not in giveaway_users:
             await interaction.response.send_message("You **succesfully** joined the giveaway!", ephemeral=True)
             a = member.id
-            with open(f'giveaway_users/{custom_id}.txt', 'a') as file:
+            with open(f'giveawaysystem/giveaway_users/{custom_id}.txt', 'a') as file:
                 file.write(f'{str(a)}\n')
 
 
